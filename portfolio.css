@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior:smooth;
+}
+body{
+    background-color: rgb(2, 0, 0);
+    color: white;
+   /* background-image: url(body1.avif);
+    background-size: cover;
+    background-position: center;*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.dil{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+ 
+
+
+    
+
+span{
+    color: red;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 20px 20px 20px 20px;
+    position: ;
+    top: 0;
+    
+    
+}
+#anchor{
+    text-decoration: none;
+    color: white;
+}
+.left-hero{
+    margin-top: 5cm;
+    margin-left: 3cm;
+}
+
+.h-hero{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.a{
+    border: 1px solid black;
+    background: rgb(161, 7, 7);
+    padding: 10px 15px;
+    border-radius: 10%;
+    transition-duration: 0.5s;
+    transition-delay: 0.5s;
+    
+    
+
+}
+.a:hover{
+    transform: scale(1.2);
+    background-color: red;
+    
+    
+}
+img{
+    height: 9cm;
+    width: 9cm;
+    
+    
+}
+
+.container1{
+    margin-top: 2cm;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 2cm;
+}
+.right-hero1{
+    margin-top: 2cm;
+    
+}
+.about{
+    margin-bottom: 20px;
+}
+.about1-para{
+    line-height: 1.5;
+}
+
+
+.mini-sec{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    color: red;
+    margin-top: 1cm;
+}
+
+.services-section{
+    display:flex ;
+    margin-top: 3cm;
+    justify-content: space-evenly;
+    
+}
+
+.web-design{
+    height: 6cm;
+    width: 8cm;
+    border: 1px solid black ;
+    background-color: rgb(63, 62, 62);
+    box-shadow: 1px 1px 1px 1px black;
+    border-radius: 5%;
+    transition-duration: 0.5s;
+   
+    
+}
+.web-design:hover{
+   transform: scale(1.1);
+   background-color: rgb(232, 24, 93);
+}
+.h-web{
+    padding: 0.7cm 0cm 0cm 1.8cm;
+    
+}
+.p-web{
+    text-align: center;
+    padding-top: 20px;
+    line-height: 1.4;
+    
+
+
+}
+.learn1{
+   
+   text-align: center;
+   margin-top: 15px;
+    
+
+}
+.ui-design{
+    height: 6cm;
+    width: 8cm;
+    border: 1px solid black;
+    background-color: rgb(63, 62, 62);
+    box-shadow: 1px 1px 1px 1px black;
+    border-radius: 5%;
+    transition-duration: 0.5s;
+    
+}
+.ui-design:hover{
+    transform: scale(1.1);
+    background-color: rgb(232, 24, 93);
+ }
+
+.h-ui{
+    padding: 0.7cm 0cm 0cm 1.8cm;
+
+}
+.p-ui{
+    padding-top: 10px;
+    text-align: center;
+    
+
+
+}
+.learn2{
+    text-align: center;
+   margin-top: 15px;
+
+}
+.app-design{
+    height: 6cm;
+    width: 8cm;
+    border: 1px solid black;
+    background-color: rgb(63, 62, 62);
+    box-shadow: 1px 1px 1px 1px black;
+    border-radius: 5%;
+    transition-duration: 0.5s;
+}
+.app-design:hover{
+    transform: scale(1.1);
+    background-color: rgb(232, 24, 93);
+ }
+
+.h-app{
+    padding: 0.7cm 0cm 0cm 1.8cm;
+}
+.p-app{
+    padding: 10px 15px 0px 15px;
+
+}
+.learn3{
+    text-align: center;
+    margin-top: 15px;
+}
+
+#services{
+    margin-top: 2cm;
+}
+.services{
+    margin-top: 3cm;
+    text-align: center;
+    font-size: 1.5cm;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.work{
+    text-align: center;
+    margin-top: 2cm;
+    font-size: 1.5cm;
+    
+}
+
+.img-section{
+    margin-top: 2cm;
+    display: flex;
+    justify-content: space-evenly;
+}
+.img1{
+    height: 35vh;
+    width: 22vw;
+    border-radius: 5%;
+    transition-duration: 0.5s;
+    
+}
+.img1:hover{
+    transform: scale(1.1);
+}
+.img2{
+    height: 35vh;
+    width: 22vw;
+    border-radius: 5%;
+    transition-duration: 0.5s;
+}
+.img2:hover{
+    transform: scale(1.1);
+}
+.img3{
+    height: 35vh;
+    width: 22vw;
+    border-radius: 5%;
+    transition-duration: 0.5s;
+}
+.img3:hover{
+    transform: scale(1.1);
+}
+.serv-heading{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.serv1{
+    padding-left: 6.5cm;
+}
+.serv2{
+    margin-left: ;
+}
+
+.serv3{
+    margin-right:5cm ;
+}
+
+
+
+.imgbutton{
+    margin-top: 35px;
+    margin-left: 18cm;
+    padding: 9px 40px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgb(239, 37, 70);
+    border-radius: 10px;
+    box-shadow: 1px  ;
+    transition-duration: 0.5s;
+}
+.imgbutton:hover{
+    transform: scale(1.1);
+    background-color: rgb(233, 50, 81);
+}
+.fotter{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2cm;
+
+}
+.l-side{
+    margin-right: 5cm;
+
+}
+.l-head{
+    font-size: 1.5cm;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.email{
+    margin-top: 30px;
+
+}
+.num{
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+.down{
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 10px 35px;
+    background: transparent;
+    background-color: rgb(225, 47, 76);
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+
+
+}
+
+.r-side{
+    display: flex;
+    flex-direction: column;
+    
+}
+.input1{
+    height: 1cm;
+    width: 15cm;
+    background: rgb(72, 71, 71);
+    border: 1px solid black;
+    border-radius: 5px;
+    
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+    
+
+}
+.input2{
+    margin-top: 1cm;
+    height: 1cm;
+    background: rgb(72, 71, 71);
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+
+}
+.input3{
+    margin-top: 1cm;
+    height: 3cm;
+    background: rgb(72, 71, 71);
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+   padding-bottom: 3cm;
+    padding-left: 20px;
+
+}
+.submit{
+    margin-top: 1cm;
+    height: 1cm;
+    width: 3cm;
+    background: rgb(231, 34, 67);
+    color: white;
+    border: 1px solid rgb(232, 54, 84);
+    border-radius: 10px;
+}
+
+.ba{
+    color: rgb(220, 232, 232);
+    margin-left: 10px;
+}
+
+#ab{
+    display: none;
+    
+    margin-top: 10px;
+    transition-duration: 0.5s;
+    transition-delay: 0.5s;
+}
+
+#ab:hover{
+    transform: scale(1.2);
+
+    
+}
+#id-exp{
+    display: none;
+    margin-top: 10px;
+}
+
+
+#qrCode{
+    height: 3cm;
+    width: 3cm;
+    
+}
+.qr-para{
+    margin-bottom: 1cm;
+    margin-top: 10px;
+}
+
+#id-edu{
+    display: none;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+
